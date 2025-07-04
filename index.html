@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Solar System</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="controls">
+      <div id="globalControls">
+        <h3>Solar System Controls</h3>
+        <button id="pauseBtn">Pause</button>
+        <button id="resetBtn">Reset</button>
+        <button id="themeToggle">🌙 Dark Mode</button>
+      </div>
+      <h4>Planet Speed Controls</h4>
+      <div id="planetControls"></div>
+    </div>
+
+    <div id="info">
+      <div>Use mouse to orbit camera</div>
+      <div>Scroll to zoom</div>
+    </div>
+
+    <div id="tooltip" class="tooltip"></div>
+  </div>
+
+  <script src="./script.js">
+  </script>
+</body>
+
+</html>
